@@ -1,0 +1,284 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "languages": [],
+    "userAgentAdd": "gonative",
+    "useWKWebView": true,
+    "enableWindowOpen": true,
+    "useCrosswalkWebView": false,
+    "forceScreenOrientation": null,
+    "initialUrl": "https://panel.websaviour.host",
+    "appName": "WebSaviour Panel",
+    "androidVersionName": "1.0.1",
+    "publicKey": "klkerp",
+    "deviceRegKey": "2jv0gkb5yvrpgk5a2eq5hwx4xm"
+  },
+  "navigation": {
+    "iosSettings": {},
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ],
+      "tabMenus": [
+        {
+          "items": [
+            {
+              "subLinks": []
+            }
+          ],
+          "id": "1"
+        }
+      ],
+      "active": false
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ],
+        "testURL": null
+      },
+      "menus": [
+        {
+          "items": [
+            {
+              "subLinks": [],
+              "url": "https://panel.websaviour.host/index.php",
+              "label": "Panel",
+              "icon": "fa-gamepad"
+            },
+            {
+              "subLinks": [],
+              "url": "https://discord.gg/ykmncpp",
+              "label": "Discord",
+              "icon": "fa-comment"
+            }
+          ],
+          "name": "default",
+          "active": true
+        },
+        {
+          "items": [
+            {
+              "subLinks": [],
+              "url": "https://panel.websaviour.host/index.php",
+              "label": ""
+            },
+            {
+              "subLinks": [],
+              "url": "https://panel.websaviour.host/index.php",
+              "label": ""
+            },
+            {
+              "subLinks": [],
+              "url": "https://panel.websaviour.host/auth/password",
+              "label": ""
+            }
+          ],
+          "name": "loggedIn",
+          "active": false
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "^(?!https?://).*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": false,
+    "navigationTitles": {
+      "titles": [
+        {}
+      ],
+      "active": false
+    },
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "androidShowRefreshButton": true,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": [],
+    "navigationLevels": {
+      "levels": [
+        {}
+      ],
+      "active": false
+    },
+    "toolbarNavigation": null
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundColor": "#FFFFFF",
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/public/ios_launch_screen_background_default_FFFFFF_1_2x2.png"
+    },
+    "androidLaunchImages": {},
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/20br745n7pdw2_1580408206309.png",
+    "iosHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/ejutw0jhpjjw8_1580408303907.png",
+    "showActionBar": true,
+    "showNavigationBar": true,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": true,
+    "navigationTitleImage": false,
+    "iosTheme": "default",
+    "androidTheme": "light",
+    "androidSidebarBackgroundColor": "#008FB3",
+    "androidSidebarForegroundColor": "#000000",
+    "androidActionBarBackgroundColor": "#008FB3",
+    "androidActionBarForegroundColor": "#000000",
+    "androidPullToRefreshColor": "#008fb3",
+    "androidAccentColor": "#008fb3",
+    "androidSidebarSeparatorColor": "#008fb3",
+    "androidTabBarBackgroundColor": "#008fb3",
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarIndicatorColor": "#000000",
+    "androidStatusBarBackgroundColor": "#008FB3",
+    "androidHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/7gy67r3kwgb9e_1580418984552.png",
+    "iosTitleColor": "#000000",
+    "iosSidebarTextColor": "#008FB3"
+  },
+  "forms": {
+    "interceptForms": {
+      "forms": []
+    },
+    "search": {
+      "active": false
+    },
+    "loginConfig": {
+      "formInputs": [],
+      "formSelector": null,
+      "loginIsFirstPage": false
+    },
+    "signupConfig": {
+      "formInputs": [],
+      "active": false,
+      "formSelector": null
+    }
+  },
+  "permissions": {
+    "usesGeolocation": true,
+    "androidDownloadToPublicStorage": false,
+    "enableWebRTC": false
+  },
+  "publishing": {},
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "push": {
+      "active": false
+    },
+    "analytics": {
+      "active": false
+    },
+    "parse": {
+      "active": false,
+      "pushEnabled": false
+    },
+    "facebook": {
+      "active": false
+    },
+    "oneSignal": {
+      "active": false,
+      "notificationExtension": false
+    },
+    "registration": {
+      "active": false,
+      "endpoints": [
+        {
+          "url": null,
+          "urlRegex": null,
+          "dataType": [
+            "parse",
+            "oneSignal",
+            "xtremepush"
+          ]
+        }
+      ]
+    }
+  }
+}
